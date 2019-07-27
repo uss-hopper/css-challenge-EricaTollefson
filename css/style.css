@@ -114,6 +114,44 @@ img[alt="captain janeway"] {
 	height: auto;
 	display: block;
 	margin: 10px;
+}
 
+.about-me {
+	box-sizing: border-box;
+	padding: 20px;
+	display: flex;
+	margin: auto;
+	width: 100%;
+	flex-direction: row;
+	align-items: center;
+	font-family: Inconsolata, Monaco, monospace;
+	color: white;
+	background-color: #0000FF;
 
+}
+
+img[alt="captain picard"] {
+	float: left;
+	width: 30%;
+	height: auto;
+	display: block;
+	margin: 40px 30px 40px 25px;
+	border: 3px solid white;
+}
+
+.about-me p{
+	color: red;
+	margin: auto;
+	width: 92%;
+}
+
+.about-me h2{
+	margin: auto;
+	width: 92%;
+	padding: 40px 0px 12px 0px;
+}
+
+span {
+	color: #FFFF07;
+	font-style: italic;
 }
