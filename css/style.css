@@ -89,9 +89,10 @@ img[alt="welcome to my homepage"] {
 }
 
 .instructions-wrapper {
-	padding: 10px;
+	box-sizing: border-box;
+	padding: 5px 15px;
 	display: flex;
-	margin: 30px;
+	margin: 25px;
 	border: 6px solid black;
 	flex-direction: row;
 	align-items: center;
@@ -100,10 +101,11 @@ img[alt="welcome to my homepage"] {
 }
 
 .instructions-content {
+	box-sizing: border-box;
 	width: 50%;
 	height: auto;
 	display: block;
-	margin: auto;
+	margin: 1px 300px 1px 15px;
 }
 
 img[alt="captain janeway"] {
@@ -111,7 +113,7 @@ img[alt="captain janeway"] {
 	width: 25%;
 	height: auto;
 	display: block;
-	margin: auto;
+	margin: 10px;
 
 
 }
