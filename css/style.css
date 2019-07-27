@@ -88,3 +88,30 @@ img[alt="welcome to my homepage"] {
 	margin: auto;
 }
 
+.instructions-wrapper {
+	padding: 10px;
+	display: flex;
+	margin: 30px;
+	border: 6px solid black;
+	flex-direction: row;
+	align-items: center;
+	font-family: Inconsolata, Monaco, monospace;
+
+}
+
+.instructions-content {
+	width: 50%;
+	height: auto;
+	display: block;
+	margin: auto;
+}
+
+img[alt="captain janeway"] {
+	float: right;
+	width: 25%;
+	height: auto;
+	display: block;
+	margin: auto;
+
+
+}
