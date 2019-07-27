@@ -62,5 +62,26 @@ body { width: 100%;}
 * * Attribute Selectors
 ******************************************************/
 
+header {
+	background-color: #333333;
+	min-height: 12vh;
+	display: flex;
+	overflow: auto;
+	margin: auto;
+	font-family: Inconsolata, Monaco, monospace;
+	width: 100%;
+	flex-direction: row;
+	align-items: center;
+	color: #00FF00;
+}
 
+h1 {
+	font-size: 48px;
+	display: inline;
+	padding: 25px 25px;
+}
+
+em {
+
+}
 
