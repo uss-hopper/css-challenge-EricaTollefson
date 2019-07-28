@@ -185,6 +185,46 @@ table, th, td {
 }
 
 section:nth-child(5) {
-	background-color: orange;
+	background-color: #333333;
 	overflow: auto;
+	color: white;
+	font-family: Inconsolata, Monaco, monospace;
+	padding: 60px;
+}
+
+.form-wrapper {
+	background-color: #006400;
+	color: #00FA00;
+	font-family: Inconsolata, Monaco, monospace;
+	margin: auto;
+	width: 96%;
+	padding: 8px 25px 28px 25px;
+}
+
+label, input, textarea {
+	display: flex;
+	flex-direction: column;
+}
+
+input {
+	width: 31%;
+}
+
+textarea {
+	width: 31.5%;
+}
+
+label {
+	padding: 12px 0px 6px 0px;
+}
+
+button {
+	background-color: #00FF00;
+	border: none;
+	margin-top: 20px;
+	padding: 6px 30px;
+}
+
+section:nth-child(6) {
+	background-color: #000000;
 }
