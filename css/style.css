@@ -140,15 +140,16 @@ img[alt="captain picard"] {
 }
 
 .about-me p{
-	color: red;
 	margin: auto;
 	width: 92%;
+	padding-top: 10px;
+	font-size: 15px;
 }
 
 .about-me h2{
 	margin: auto;
 	width: 92%;
-	padding: 40px 0px 12px 0px;
+	padding-top: 40px;
 }
 
 span {
