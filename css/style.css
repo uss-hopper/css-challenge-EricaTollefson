@@ -156,3 +156,25 @@ span {
 	color: #FFFF07;
 	font-style: italic;
 }
+
+html > body.sfooter > div.sfooter-content > section:not(.about-me) > div.container > h2{
+	font-family: Inconsolata, Monaco, monospace;
+	font-weight: bold;
+	text-align: right;
+	padding-top: 30px;
+}
+
+table {
+	border-collapse: collapse;
+	margin: auto;
+	width: 100%;
+}
+
+table, th, td {
+	border: 2px solid white;
+	background-color: #323232;
+	color: #06EB07;
+	text-align: left;
+	padding: 18px;
+	font-family: Inconsolata, Monaco, monospace;
+}
