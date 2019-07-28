@@ -164,10 +164,15 @@ html > body.sfooter > div.sfooter-content > section:not(.about-me) > div.contain
 	padding-top: 30px;
 }
 
+section:nth-child(4) {
+	margin-bottom: 60px;
+}
+
 table {
 	border-collapse: collapse;
 	margin: auto;
 	width: 100%;
+
 }
 
 table, th, td {
@@ -177,4 +182,9 @@ table, th, td {
 	text-align: left;
 	padding: 18px;
 	font-family: Inconsolata, Monaco, monospace;
+}
+
+section:nth-child(5) {
+	background-color: orange;
+	overflow: auto;
 }
