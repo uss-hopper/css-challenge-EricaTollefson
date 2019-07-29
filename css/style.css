@@ -63,6 +63,22 @@ body { width: 100%;}
 * * Attribute Selectors
 ******************************************************/
 
+/*in-class answer
+body {font-family: monospace, "Courier New";}
+section {padding: 2.75rem 0}
+
+*/
+
+
+/*in-class answer
+
+*/
+
+/*in-class answer
+
+*/
+
+
 header {
 	background-color: #333333;
 	min-height: 12vh;
@@ -76,8 +92,8 @@ header {
 }
 
 h1 {
-	font-size: 48px;
-	display: inline;
+	font-size: 48px; /* answer: 2.5rem*/
+	display: inline; /*inline-block*/
 	padding: 25px 25px;
 }
 
@@ -153,7 +169,7 @@ span {
 	font-style: italic;
 }
 
-html > body.sfooter > div.sfooter-content > section:not(.about-me) > div.container > h2{
+html > body.sfooter > div.sfooter-content > section:not(.about-me) > div.container > h2{ /*section:nth-child(4) h2 { */
 	font-weight: bold;
 	text-align: right;
 	padding-top: 30px;
@@ -198,7 +214,7 @@ label, input, textarea {
 }
 
 input {
-	width: 31%;
+	width: 31%; /*should be with textarea, 30% width*/
 }
 
 textarea {
@@ -211,9 +227,9 @@ label {
 
 button {
 	background-color: #00FF00;
-	border: none;
+	border: none; /*font-size: 1rem*/
 	margin-top: 20px;
-	padding: 6px 30px;
+	padding: 6px 30px; /*10px 31px*/
 }
 
 footer {
